@@ -1,0 +1,39 @@
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0;
+    overflow: hidden;
+    padding: 10px 10px;
+  }
+
+  .hero {
+    display: none;
+  }
+
+  .course_tabs {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 10px;
+    width: 100%;
+    margin-bottom: 30px;
+
+    a {
+      font-size: 12px;
+    }
+  }
+
+  .top_links {
+    display: none;
+  }
+
+  .section_label {
+    margin-top: 10px;
+  }
+
+  .videos_section {
+    overflow: hidden;
+  }
+
+  .parent_frame {
+    overflow: hidden;
+  }
+}

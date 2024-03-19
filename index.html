@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mqstyles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="./img/K-logo.png" alt="Logo" class="logo_img" />
+          <h2><a href="#">Kospal</a></h2>
+        </div>
+        <div class="links top_links">
+          <a href="#videos">View Courses</a>
+          <a href="#">Join our community</a>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <div class="content">
+          <h1>Learn something New Everyday</h1>
+          <p class="sub_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+            recusandae modi vel perferendis facere molestias.
+          </p>
+          <button class="btn_primary">
+            <a href="#videos">Explore Courses</a>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="courses">
+      <div class="section_label">
+        <h2>Courses</h2>
+        <p class="sub_text">List of recommended courses</p>
+      </div>
+
+      <div class="course_tabs">
+        <button class="btn_outline"><a href="#">Linear Algebra</a></button>
+        <button class="btn_outline"><a href="#">Discrete maths</a></button>
+        <button class="btn_outline"><a href="#">Digital Electronics</a></button>
+        <button class="btn_outline"><a href="#">C++</a></button>
+        <button class="btn_outline">
+          <a href="./dataStructures.html" target="courses">Data Structures</a>
+        </button>
+      </div>
+      <hr />
+    </section>
+
+    <section class="videos_section" id="videos">
+      <iframe
+        class="parent_frame"
+        src="./randomCourses.html"
+        frameborder="0"
+        name="courses"
+      ></iframe>
+    </section>
+
+    <div class="subscribe"></div>
+
+    <footer>
+      <div class="logo">
+        <img src="./img/K-logo.png" alt="Logo" class="logo_img" />
+        <h2><a href="#">Kospal</a></h2>
+      </div>
+
+      <div class="links"></div>
+    </footer>
+  </body>
+</html>
